@@ -5,6 +5,46 @@
     </head>
     
     <body>
+
+        <style type="text/css">
+                TABLE {
+                 width: 115px; 
+                 height: 300px;
+                 border: 2px solid gray; 
+                 border-bottom: 2px solid black;
+                 border-right: 2px solid black;
+                 }          
+
+                TD {
+                 border-top: 2px solid black; 
+                 border-left: 2px solid black;
+                 border-right: 2px solid gray;
+                 border-bottom: 2px solid gray;
+                 }
+        </style>
+
+        <table cellspacing="3" border="2">
+            <!--1-->
+            <tr >
+                <td colspan="3"></td><td></td><td></td>
+            </tr>
+             <!--2-->
+            <tr>
+                <td></td><td rowspan="3"></td><td></td><td></td><td></td>
+            </tr>
+             <!--3-->
+            <tr>
+               <td></td><td></td><td></td><td></td>
+            </tr>
+             <!--4-->
+            <tr>
+                <td></td><td></td><td colspan="2"></td>
+            </tr>
+             <!--5-->
+            <tr>
+                <td bgcolor="green" colspan="5"></td>
+            </tr>
+        </table>
         
     </body>
 </html>
