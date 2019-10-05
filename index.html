@@ -1,50 +1,45 @@
 <!DOCTYPE html>
-<html>
+<htm>
     <head>
-        
+        <meta charset="UTF-8">
+        <title>List</title>
     </head>
-    
     <body>
-
-        <style type="text/css">
-                TABLE {
-                 width: 115px; 
-                 height: 300px;
-                 border: 2px solid gray; 
-                 border-bottom: 2px solid black;
-                 border-right: 2px solid black;
-                 }          
-
-                TD {
-                 border-top: 2px solid black; 
-                 border-left: 2px solid black;
-                 border-right: 2px solid gray;
-                 border-bottom: 2px solid gray;
-                 }
-        </style>
-
-        <table cellspacing="3" border="2">
-            <!--1-->
-            <tr >
-                <td colspan="3"></td><td></td><td></td>
-            </tr>
-             <!--2-->
-            <tr>
-                <td></td><td rowspan="3"></td><td></td><td></td><td></td>
-            </tr>
-             <!--3-->
-            <tr>
-               <td></td><td></td><td></td><td></td>
-            </tr>
-             <!--4-->
-            <tr>
-                <td></td><td></td><td colspan="2"></td>
-            </tr>
-             <!--5-->
-            <tr>
-                <td bgcolor="green" colspan="5"></td>
-            </tr>
-        </table>
-        
+        <ol> <!--номерований список-->
+            <li>Задача 1</li>
+            <li>Задача 2</li>
+            <li>Задача 3</li>
+            <p></p>
+        </ol>
+        <ol style="list-style-type: upper-latin"> <!--заданий стиль = латинські букви верхнього регістру-->
+            <li>Задача 1</li>
+            <li>Задача 2</li>
+            <li>Задача 3</li>
+        </ol>
+        <ol style="list-style-type: lower-latin">
+            <li>Задача 1</li>
+            <li>Задача 2</li>
+            <li>Задача 3</li>
+        </ol>
+        <ol style="list-style-type: upper-roman">
+            <li>Задача 1</li>
+            <li>Задача 2</li>
+            <li>Задача 3</li>
+        </ol>
+        <ol style = "list-style-type: lower-roman">
+            <li>Задача 1</li>
+            <li>Задача 2</li>
+            <li>Задача 3</li>
+        </ol>
+        <ul>
+            <li>Задача 1</li>
+            <li>Задача 2</li>
+            <ul>
+                <li>Задача 2.1</li>
+                <li>Задача 2.2</li>
+                <li>Задача 2.3</li>
+            </ul>
+            <li>Задача 3</li>
+        </ul>
     </body>
-</html>
+</htm>
